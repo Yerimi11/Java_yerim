@@ -1,6 +1,6 @@
 package ch06;
 
-public class StudentTest {
+public class StudentTest { // Client 역할 
 
 	public static void main(String[] args) {
 		

@@ -6,10 +6,10 @@ public class Student {
 	public String studentName;
 	public int grade;
 	
-	// 1) default 생성자 로 생성 
+	// 1) default 생성자로 생성하는 방법  
 	public Student() {} 
 	
-	// 2) 매개변수를 직접 넣어 생성 
+	// 2) 매개변수를 직접 넣어 생성하는 방법 
 	public Student(int studentNumber, String studentName, int grade) {
 		
 			this.studentNumber = studentNumber;
