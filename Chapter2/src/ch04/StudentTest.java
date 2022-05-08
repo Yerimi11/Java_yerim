@@ -6,17 +6,16 @@ public class StudentTest {
 			
 			Student studentLee = new Student();
 			studentLee.studentID = 12345;
-			studentLee.studentName = "Lee";
+			studentLee.setStudentName("Lee");
 			studentLee.address = "서울시 강남구";
-			
 			
 			studentLee.showStudentInfo();
 			
 			Student studentKim = new Student();
 			studentKim.studentID = 54321;
-			studentKim.studentName = "Kim";
+			studentKim.setStudentName("Kim");
 			studentKim.address = "경기도 성남시";
-			
+			 
 			studentKim.showStudentInfo();
 		}
 
