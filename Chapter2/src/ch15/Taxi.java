@@ -7,9 +7,9 @@ public class Taxi {
 	
 	public Taxi(String taxiCompanyName) {
 		this.taxiCompanyName = taxiCompanyName;
-	}
+	} 
 	
-	public void takeTaxi(int encome) {
+	public void take(int encome) {
 		this.encome += encome;
 	}
 	

@@ -7,8 +7,7 @@ public class TaxiTest {
 		Student StudentE = new Student("Edward", 20000);
 		Taxi TaxiGoodC = new Taxi("잘나간다 운수");
 		
-		StudentE.takeTaxi(10000);
-		TaxiGoodC.takeTaxi(10000);
+		StudentE.takeTaxi(TaxiGoodC);
 		
 		StudentE.showStudentInfo();
 		TaxiGoodC.showTaxiName();

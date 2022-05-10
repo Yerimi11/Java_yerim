@@ -10,8 +10,9 @@ public class Student {
 		this.money = money;
 	}
 	
-	public void takeTaxi(int money) {
-		this.money -= money;
+	public void takeTaxi(Taxi taxi) {
+		taxi.take(10000);
+		this.money -= 10000;
 	}
 	
 	public void showStudentInfo() {
