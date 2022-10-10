@@ -9,11 +9,11 @@ public class Taxi {
 		this.taxiCompanyName = taxiCompanyName;
 	} 
 	
-	public void take(int encome) {
-		this.encome += encome;
+	public void take(int money) {
+		this.encome += money;
 	}
 	
-	public void showTaxiName() {
+	public void showTaxiCompany() {
 		System.out.println(taxiCompanyName + "택시 수입은 " + encome + "원 입니다.");
 	}
 }
