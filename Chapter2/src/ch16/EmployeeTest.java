@@ -25,4 +25,4 @@ public class EmployeeTest {
 // Data 영역		- serialNum (static변수, 공유메모리)
 // Stack memory - employeeLee, employeeKim
 // Heap memory	- .setEmployeeName
-// Stack -> Data영역을 참조(공유메모리), Heap을 참조.
+// Stack -> Data영역을 참조(공유메모리), Heap을 참조한다.
