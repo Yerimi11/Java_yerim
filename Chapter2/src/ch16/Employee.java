@@ -6,7 +6,12 @@ public class Employee {
 	
 	private int employeeId;
 	private String employeeName;
-	private String department;	
+	private String department;
+	
+	public Employee() { // default 생성자 
+		serialNum++;	// 여기까지 코드는 다 같은 값을 같게 함 
+		employeeId = serialNum; // 이렇게 함으로써 각자 번호를 부여받을 수 있게 함.	
+	}
 	
 	public int getEmployeeId() {
 		return employeeId;
