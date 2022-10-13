@@ -2,7 +2,8 @@ package ch16;
 
 public class Employee {
 	
-	public static int serialNum = 1000; // static변수 -> 메모리의 data영역에 저장되고, 인스턴스들의 공유메모리로 사용된다.
+	private static int serialNum = 1000; // static변수 -> 메모리의 data영역에 저장되고, 인스턴스들의 공유메모리로 사용된다.
+	// private으로 해놓으면 외부 참조가 불가능해진다.
 	
 	private int employeeId;
 	private String employeeName;
@@ -13,6 +14,10 @@ public class Employee {
 		employeeId = serialNum; // 이렇게 함으로써 각자 번호를 부여받을 수 있게 함.	
 	}
 	
+	public static int getSerialNum() {
+		return serialNum;
+	}
+
 	public int getEmployeeId() {
 		return employeeId;
 	}
