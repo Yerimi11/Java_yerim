@@ -22,7 +22,7 @@ public class StudentSubjectTest {
 		studentKim.addSubject("영어", 100);
 		
 		studentLee.showScoreInfo();
-		System.out.println("==================");
+		System.out.println("===============================");
 		studentKim.showScoreInfo();
 		
 	}
